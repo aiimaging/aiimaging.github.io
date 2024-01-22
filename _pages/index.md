@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /airlab
 header:
   overlay_color: "#5e616c"
   overlay_image: mm-home-page-feature.jpg
@@ -33,7 +33,7 @@ intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
 ---
 
-this is
+this is a
 
 {% include feature_row id="intro" type="center" %}
 
