@@ -21,13 +21,13 @@ foo:
 
 # main links links
 main:
-  - title: "Quick-Start Guide"
+  - title: "研究队伍"
     url: /docs/quick-start-guide/
 
-  - title: "About"
+  - title: "论文发表"
     url: /about/
 
-  - title: "Sample Posts"
+  - title: "科研成果"
     url: /year-archive/
 
   - title: "Sample Collections"
