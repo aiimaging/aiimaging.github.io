@@ -35,7 +35,7 @@ intro:
 
 
 
-<h1>this is a test</h1>
+<h1 style="background: lightblue; margin: 10px auto;border: 1px solid #000;width: 200px;height: 200px;">this is a test</h1>
 
 {% include feature_row id="intro" type="center" %}
 
