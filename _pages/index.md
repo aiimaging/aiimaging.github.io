@@ -35,6 +35,8 @@ intro:
 
 this is a
 
+<h1>this is a test</h1>
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
