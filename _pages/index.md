@@ -33,7 +33,7 @@ intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
 ---
 
-sdsjskdjskdjd
+我为北京科技大学长跑协会打call
 
 <h1>this is a test</h1>
 
