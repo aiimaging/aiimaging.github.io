@@ -33,7 +33,7 @@ intro:
   - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
 ---
 
-<h6 style="background: yellow; margin: 10px auto;border: 1px solid #000;width: 500px;height: 1000px;">this is a test</h6>
+<h6 style="background: yellow; margin: 10px auto;text-align:center;border: 1px solid #000;width: 500px;height: 1000px;">this is a test</h6>
 
 {% include feature_row id="intro" type="center" %}
 
