@@ -22,7 +22,7 @@ foo:
 # main links links
 main:
   - title: "研究队伍"
-    url: /docs/quick-start-guide/
+    url: /teams
 
   - title: "论文发表"
     url: /about/
