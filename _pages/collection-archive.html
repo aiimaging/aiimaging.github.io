@@ -1,24 +1,18 @@
 ---
 layout: archive
-title: "Posts by Collection"
+title: "联系我们"
 permalink: /collection-archive/
 author_profile: true
 ---
-
-{% include base_path %}
-{% capture written_label %}'None'{% endcapture %}
-
-{% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
-    {% capture label %}{{ collection.label }}{% endcapture %}
-    {% if label != written_label %}
-      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}
-  {% endunless %}
-  {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}
-    {% endunless %}
-  {% endfor %}
-{% endfor %}
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2570.8622902823486!2d116.33260856701378!3d39.97967493953946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDU4JzQ0LjIiTiAxMTbCsDE5JzU4LjYiRQ!5e0!3m2!1szh-CN!2sjp!4v1706099277633!5m2!1szh-CN!2sjp"
+  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div>
+    <h4>视频内容安全研究组</h4>
+    邮编：100190
+    <br>
+    邮箱：liuhaowei2019@nlpr.ia.cn
+    <br>
+    地址：北京市海淀区中关村东路95号智能化大厦15层
+  </div>
