@@ -18,7 +18,6 @@ foo:
       - title: "Child Link 3"
         url: /child-3-page-url/
 
-
 # main links links
 main:
   - title: "研究队伍"
@@ -30,12 +29,11 @@ main:
   - title: "科研成果"
     url: /year-archive/
 
-  - title: "Sample Collections"
+  - title: "联系我们"
     url: /collection-archive/
 
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
-
 
 # documentation links
 docs:
