@@ -48,7 +48,7 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 
 For even more demo pages check the [posts archive][year-archive].
 
-[header-image-post]: {{ base_path }}{% post_url 2012-03-15-layout-header-image-text-readability %}
+
 [sample-collection]: {{ base_path }}/recipes/chocolate-chip-cookies/
 [categories-archive]: {{ base_path }}/categories/
 [tags-archive]: {{ base_path }}/tags/
