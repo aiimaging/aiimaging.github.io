@@ -21,7 +21,7 @@ foo:
 # main links links
 main:
   - title: "研究队伍"
-    url: /research_team/
+    url: /teams
 
   - title: "科研成果"
     url: /year-archive/
