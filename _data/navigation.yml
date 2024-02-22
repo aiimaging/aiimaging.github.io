@@ -21,14 +21,13 @@ foo:
 # main links links
 main:
   - title: "研究队伍"
-    url: /teams
+    url: /research_team/
 
   - title: "科研成果"
     url: /year-archive/
 
   - title: "联系我们"
     url: /collection-archive/
-
 
 # documentation links
 docs:
