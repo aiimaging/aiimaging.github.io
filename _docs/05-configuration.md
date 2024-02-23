@@ -20,7 +20,7 @@ Take a moment to look over the configuration file included with the theme. Comme
 
 `site.locale` is used to declare the primary language for each web page within the site.
 
-*Example:* `locale: "en-US"` sets the `lang` attribute for the site to the *United States* flavor of English, while `en-GB` would be for the `United Kingdom` style of English. Country codes are optional and the shorter `locale: "en"` is also acceptable. To find your language and country codes check this [reference table](https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx). 
+_Example:_ `locale: "en-US"` sets the `lang` attribute for the site to the _United States_ flavor of English, while `en-GB` would be for the `United Kingdom` style of English. Country codes are optional and the shorter `locale: "en"` is also acceptable. To find your language and country codes check this [reference table](<https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx>).
 
 Properly setting the locale is important for associating localized text found in the [**UI Text**]({{ base_path }}/docs/ui-text/) data file. An improper match will cause parts of the UI to disappear (eg. button labels, section headings, etc).
 
@@ -31,17 +31,17 @@ Properly setting the locale is important for associating localized text found in
 
 The name of your site. Is used throughout the theme in places like the site masthead and `<title>` tags.
 
-*Example:* `title: "My Awesome Site"`
+_Example:_ `title: "My Awesome Site"`
 
 You also have the option of customizing the separation character used in SEO-friendly page titles.
 
-*Example:* `title_separator: "|"` would produce page titles like `Sample Page | My Awesome Site`.
+_Example:_ `title_separator: "|"` would produce page titles like `Sample Page | My Awesome Site`.
 
 ### Site Name
 
 Used to assign a site author. Don't worry, you can override the site author with different ones on specific posts, pages, or collection documents.
 
-*Example:* `name: "Michael Rose"`.
+_Example:_ `name: "Michael Rose"`.
 
 **ProTip:** If you want to get crafty with your YAML you can use [anchors](http://www.yaml.org/spec/1.2/spec.html#id2785586) to reuse values. For example `foo: &var "My String"` allows you to reuse `"My String"` elsewhere in `_config.yml` like so... `bar: *var`. You'll see a few examples of this in the provided Jekyll config.
 {: .notice--info}
@@ -50,7 +50,7 @@ Used to assign a site author. Don't worry, you can override the site author with
 
 Fairly obvious. `site.description` describes the site. Used predominantly in meta descriptions as part of SEO efforts.
 
-*Example:* `description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."`
+_Example:_ `description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."`
 
 ### Site URL
 
@@ -122,7 +122,7 @@ Enable breadcrumb links to help visitors better navigate deep sites. Because of 
 ![breadcrumb navigation example]({{ base_path }}/images/mm-breadcrumbs-example.jpg)
 
 ```yaml
-breadcrumbs: true  # disabled by default
+breadcrumbs: true # disabled by default
 ```
 
 Breadcrumb start link text and separator character can both be changed in the [UI Text data file]({{ base_path }}/docs/ui-text/).
@@ -149,10 +149,10 @@ To disable reading time for a post, add `read_time: false` its YAML Front Matter
 
 ### Comments
 
-[**Disqus**](https://disqus.com/), [**Discourse**](https://www.discourse.org/), [**Facebook**](https://developers.facebook.com/docs/plugins/comments), **Google+**, and static-based commenting via [**Staticman**](https://staticman.net/) are built into the theme. First set the comment provider you'd like to use: 
+[**Disqus**](https://disqus.com/), [**Discourse**](https://www.discourse.org/), [**Facebook**](https://developers.facebook.com/docs/plugins/comments), **Google+**, and static-based commenting via [**Staticman**](https://staticman.net/) are built into the theme. First set the comment provider you'd like to use:
 
 | Name            | Comment Provider  |
-| ----            | ----------------  |
+| --------------- | ----------------- |
 | **disqus**      | Disqus            |
 | **discourse**   | Discourse         |
 | **facebook**    | Facebook Comments |
@@ -193,11 +193,10 @@ For guidance on how to set up Discourse for embedding comments from a topic on a
 
 ```yaml
 comments:
-  provider               : "discourse"
+  provider: "discourse"
   discourse:
-    server               : # meta.discourse.org
+    server: # meta.discourse.org
 ```
-  
 
 ##### Facebook Comments
 
@@ -205,11 +204,11 @@ To enable Facebook Comments choose how many comments you'd like visible per post
 
 ```yaml
 comments:
-  provider               : "facebook"
+  provider: "facebook"
   facebook:
-    appid                : # optional
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid: # optional
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
 ```
 
 ##### Static-Based Comments via Staticman
@@ -223,7 +222,7 @@ Transform user comments into `_data` files that live inside of your GitHub repos
 
 ###### Configure Staticman
 
-Default settings have been provided in `_config.yml`. The important ones to set are  `provider: "staticman"` and `branch`. View the [full list of configurations](https://github.com/eduardoboucas/staticman#jekyll-configuration).
+Default settings have been provided in `_config.yml`. The important ones to set are `provider: "staticman"` and `branch`. View the [full list of configurations](https://github.com/eduardoboucas/staticman#jekyll-configuration).
 
 **Branch setting:** This is the branch comment files will be sent to via pull requests. If you host your site on GitHub Pages it will likely be `master` unless your repo is setup as a project --- use `gh-pages` in that case.
 {: .notice--info}
@@ -232,21 +231,21 @@ Default settings have been provided in `_config.yml`. The important ones to set 
 comments:
   provider: "staticman"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ["name", "email", "url", "message"]
+  branch: # "master", "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format: "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 ```
 
 ###### Comment Moderation
@@ -273,7 +272,7 @@ atom_feed:
   path: "http://feeds.feedburner.com/youFeedname"
 ```
 
-**Note:** By default the site feed is linked in two locations: inside the [`<head>` element]({{ gh_repo }}/master/_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/{{ site.repository }}/master/_includes/footer.html).
+**Note:** By default the site feed is linked in two locations: inside the [`<head>` element]({{ gh_repo }}/master/\_includes/head.html) and at the bottom of every page in the [site footer](https://github.com/{{ site.repository }}/master/\_includes/footer.html).
 {: .notice--info}
 
 ### SEO, Social Sharing, and Analytics Settings
@@ -312,7 +311,7 @@ To [claim your site](http://www.alexa.com/siteowners/claim) with Alexa add the p
 To verify site ownership copy and paste the string inside of `name`:
 
 ```html
-<meta name='yandex-verification' content='2132801JL' />
+<meta name="yandex-verification" content="2132801JL" />
 ```
 
 Into `_config.yml`
@@ -327,7 +326,7 @@ To improve the appearance of links shared from your site to social networks like
 
 ##### Site Twitter Username
 
-Twitter username for the site. For pages that have custom author Twitter accounts assigned in their YAML Front Matter or data file, they will be attributed as a **creator** in the Twitter Card. 
+Twitter username for the site. For pages that have custom author Twitter accounts assigned in their YAML Front Matter or data file, they will be attributed as a **creator** in the Twitter Card.
 
 For example if my site's Twitter account is `@mmistakes-theme` I would add the following to `_config.yml`
 
@@ -347,15 +346,15 @@ If you have a Facebook ID or publisher page add them:
 
 ```yaml
 facebook:
-  app_id:  # A Facebook app ID
-  publisher:  # A Facebook page URL or ID of the publishing entity
+  app_id: # A Facebook app ID
+  publisher: # A Facebook page URL or ID of the publishing entity
 ```
 
 While not part a part of Open Graph, you can also add your Facebook username for use in the sidebar and footer.
 
 ```yaml
 facebook:
-  username: "michaelrose"  # https://www.facebook.com/michaelrose
+  username: "michaelrose" # https://www.facebook.com/michaelrose
 ```
 
 **ProTip:** To debug Open Graph data use [this tool](https://developers.facebook.com/tools/debug/og/object?q=https%3A%2F%2Fmademistakes.com) to test your pages. If content changes aren't reflected you will probably have to hit the **Fetch new scrape information** button to refresh.
@@ -392,8 +391,8 @@ Use markup on your official website to add your [social profile information](htt
 
 ```yaml
 social:
-  type:  # Person or Organization (defaults to Person)
-  name:  # If the user or organization name differs from the site's name
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
   links:
     - "https://twitter.com/yourTwitter"
     - "https://facebook.com/yourFacebook"
@@ -407,7 +406,7 @@ social:
 Analytics is disabled by default. To enable globally select one of the following:
 
 | Name                 | Analytics Provider                                              |
-| ----                 | ------------------                                              |
+| -------------------- | --------------------------------------------------------------- |
 | **google**           | [Google Standard Analytics](https://www.google.com/analytics/)  |
 | **google-universal** | [Google Universal Analytics](https://www.google.com/analytics/) |
 | **custom**           | Other analytics providers                                       |
@@ -433,11 +432,11 @@ Used as the defaults for defining what appears in the author sidebar.
 
 ```yaml
 author:
-  name   : "Your Name"
-  avatar : "bio-photo.jpg"  # placed in /images/
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  email  : # optional
-  uri    : "http://your-site.com"
+  name: "Your Name"
+  avatar: "bio-photo.jpg" # placed in /images/
+  bio: "My awesome biography constrained to a sentence or two goes here."
+  email: # optional
+  uri: "http://your-site.com"
 ```
 
 Social media links are all optional, include the ones you want visible. In most cases you just need to add the username. If you're unsure double check `_includes/author-profile.html` to see how the URL is constructed.
@@ -497,7 +496,7 @@ defaults:
       layout: single
 ```
 
-And of course any default value can be overridden by settings in a post, page, or collection file. All you need to do is specify the settings in the YAML Front Matter. For more examples be sure to check out the demo site's [`_config.yml`](https://github.com/{{ site.repository }}/gh-pages/_config.yml).
+And of course any default value can be overridden by settings in a post, page, or collection file. All you need to do is specify the settings in the YAML Front Matter. For more examples be sure to check out the demo site's [`_config.yml`](https://github.com/{{ site.repository }}/gh-pages/\_config.yml).
 
 ## Outputting
 
@@ -528,13 +527,13 @@ timezone: America/New_York
 
 When hosting with GitHub Pages a small [set of gems](https://pages.github.com/versions/) have been whitelisted for use. The theme uses a few of them which can be found under `gems`. Additional settings and configurations are documented in the links below.
 
-| Plugin                             | Description |
-| ------                             | ----------- |
-| [jekyll-paginate][jekyll-paginate] | Pagination Generator for Jekyll. |
-| [jekyll-sitemap][jekyll-sitemap] |Jekyll plugin to silently generate a sitemaps.org compliant sitemap for your Jekyll site. |
-| [jekyll-gist][jekyll-gist] | Liquid tag for displaying GitHub Gists in Jekyll sites. |
-| [jekyll-feed][jekyll-feed] | A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts. |
-| [jemoji][jemoji] | GitHub-flavored emoji plugin for Jekyll. |
+| Plugin                             | Description                                                                               |
+| ---------------------------------- | ----------------------------------------------------------------------------------------- |
+| [jekyll-paginate][jekyll-paginate] | Pagination Generator for Jekyll.                                                          |
+| [jekyll-sitemap][jekyll-sitemap]   | Jekyll plugin to silently generate a sitemaps.org compliant sitemap for your Jekyll site. |
+| [jekyll-gist][jekyll-gist]         | Liquid tag for displaying GitHub Gists in Jekyll sites.                                   |
+| [jekyll-feed][jekyll-feed]         | A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts.                 |
+| [jemoji][jemoji]                   | GitHub-flavored emoji plugin for Jekyll.                                                  |
 
 [jekyll-paginate]: https://github.com/jekyll/jekyll-paginate
 [jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
@@ -546,7 +545,7 @@ If you're hosting elsewhere then you don't really have to worry about what is wh
 
 ## Archive Settings
 
-The theme ships with support for taxonomy (category and tag) pages. GitHub Pages hosted sites need to use a *Liquid only* approach while those hosted elsewhere can use plugins like [**jekyll-archives**][jekyll-archives] to generate these pages automatically.
+The theme ships with support for taxonomy (category and tag) pages. GitHub Pages hosted sites need to use a _Liquid only_ approach while those hosted elsewhere can use plugins like [**jekyll-archives**][jekyll-archives] to generate these pages automatically.
 
 [jekyll-archives]: https://github.com/jekyll/jekyll-archives
 
@@ -566,7 +565,7 @@ tag_archive:
 
 Which would create category and tag links in the breadcrumbs and page meta like: `/categories/#foo` and `/tags/#foo`.
 
-**Note:** for these links to resolve properly, category and tag index pages need to exist at [`/categories/index.html`](https://github.com/{{ site.repository }}/blob/gh-pages/_pages/category-archive.html) and [`/tags/index.html`](https://github.com/{{ site.repository }}/blob/gh-pages/_pages/tag-archive.html). The necessary Liquid code to build these pages can be taken from the demo site.
+**Note:** for these links to resolve properly, category and tag index pages need to exist at [`/categories/index.html`](https://github.com/{{ site.repository }}/blob/gh-pages/\_pages/category-archive.html) and [`/tags/index.html`](https://github.com/{{ site.repository }}/blob/gh-pages/\_pages/tag-archive.html). The necessary Liquid code to build these pages can be taken from the demo site.
 {: .notice--warning}
 
 If you have the luxury of using Jekyll Plugins then [**jekyll-archives**][jekyll-archives] will make your life much easier as category and tag pages are created for you.
@@ -607,7 +606,7 @@ There's a variety of configurations and cavets to using the `compress` layout, s
 compress_html:
   clippings: all
   ignore:
-    envs: development  # disable compression in dev environment
+    envs: development # disable compression in dev environment
 ```
 
 **Caution:** Inline JavaScript comments can cause problems with `compress.html`, so be sure to `/* comment this way */` and avoid `// these sorts of comments`.

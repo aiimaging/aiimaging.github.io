@@ -413,6 +413,7 @@ modified: 2016-09-19T10:12:46-04:00
 - Added optional GitHub and Bitbucket links to footer if set on `site.author` in `_config.yml`.
 
 ### Bug Fixes
+
 - Fixed Bitbucket URL typo in author sidebar.
 
 ## [3.0.3](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.0.3)
