@@ -10,7 +10,47 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
 
 
 ---
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .slideshow {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .slideshow img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="slideshow">
+        <img src="01.PNG" alt="Image 1">
+        <img src="02.PNG" alt="Image 2">
+        <img src="03.PNG" alt="Image 3">
+    </div>
 
+    <script>
+        var images = document.querySelectorAll('.slideshow img');
+        var currentImageIndex = 0;
+
+        function showNextImage() {
+            images[currentImageIndex].style.opacity = '0';
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            images[currentImageIndex].style.opacity = '1';
+        }
+
+        setInterval(showNextImage, 2000); // 每隔2秒切换一张图片
+    </script>
+</body>
+</html>
 
 
 {% include feature_row id="intro" type="center" %}
