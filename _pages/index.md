@@ -20,17 +20,19 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
     .slideshow {
         position: relative;
         width: 100%;
-        height: 600px;
+        height: auto; /* 调整高度为自动 */
+        max-height: 300px; /* 添加最大高度 */
         overflow: hidden;
     }
 
     .slideshow img {
         position: absolute;
         width: 100%;
-        height: 100%;
+        height: auto; /* 调整高度为自动 */
+        max-height: 300px; /* 添加最大高度 */
         opacity: 0;
         transition: opacity 1s ease-in-out;
-        object-fit: cover; /* 添加这行 */
+        object-fit: cover;
     }
 </style>
 
@@ -44,7 +46,7 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
         images[currentImageIndex].style.opacity = '1';
     }
 
-    setInterval(showNextImage, 2000); // 每隔2秒切换一张图片
+    setInterval(showNextImage, 2000);
 </script>
 
 
