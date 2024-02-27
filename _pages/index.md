@@ -13,6 +13,7 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
     <img src="images\01.jpg" alt="Image 1">
     <img src="images\02.jpg" alt="Image 2">
     <img src="images\03.jpg" alt="Image 3">
+    <img src="images\04.jpg" alt="Image 4">
 </div>
 
 <style>
@@ -29,6 +30,7 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
         height: 100%;
         opacity: 0;
         transition: opacity 1s ease-in-out;
+        object-fit: cover; /* 添加这行 */
     }
 </style>
 
