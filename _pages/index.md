@@ -26,8 +26,8 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
 
     .slideshow img {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        width: 70%;
+        height: 70%;
         opacity: 0;
         transition: opacity 1s ease-in-out;
         object-fit: cover; /* 添加这行 */
