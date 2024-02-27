@@ -10,7 +10,7 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
 
 ---
 <div class="slideshow">
-    <img src="images\01.jpg" alt="Image 1" >
+    <img src="images\01.jpg" alt="Image 1">
     <img src="images\02.jpg" alt="Image 2">
     <img src="images\03.jpg" alt="Image 3">
     <img src="images\04.jpg" alt="Image 4">
@@ -20,17 +20,22 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
     .slideshow {
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 500px;
         overflow: hidden;
     }
 
     .slideshow img {
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: auto;
         height: auto;
+        max-width: 100%;
+        max-height: 100%;
         opacity: 0;
         transition: opacity 1s ease-in-out;
-        object-fit: cover; /* 添加这行 */
+        object-fit: cover;
     }
 </style>
 
@@ -44,7 +49,7 @@ excerpt: '智能成像研究小组 (I2Group) 隶属于中国科学院自动化�
         images[currentImageIndex].style.opacity = '1';
     }
 
-    setInterval(showNextImage, 2000); // 每隔2秒切换一张图片
+    setInterval(showNextImage, 2000);
 </script>
 
 
