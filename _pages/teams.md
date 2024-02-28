@@ -22,7 +22,7 @@ permalink: /teams
     }
     .member {
         display: inline-block;
-        margin: 1px;
+        margin: 1px 10px;
         position: relative;
         cursor: pointer;
     }
@@ -83,6 +83,36 @@ permalink: /teams
     <div class="member">
         <img src="images\灰色.jpg" alt="Researcher 6">
         <div class="name">张夏泽</div>
+    </div>
+    <h2>硕士研究生</h2>
+    <div class="member">
+        <img src="images\赵治坤 硕士研究生.png" alt="i Researcher">
+        <div class="name">赵治坤</div>
+    </div>
+    <h2>本科生</h2>
+    <div class="member">
+        <img src="images\郭佳 本科生.jpg" alt="esearcher 1">
+        <div class="name">郭佳</div>
+    </div>
+    <div class="member">
+        <img src="images\何宇航 本科生.jpg" alt="esearcher 2">
+        <div class="name">何宇航</div>
+    </div>
+    <div class="member">
+        <img src="images\金子翔 本科生.jpg" alt="esearcher 3">
+        <div class="name">金子翔</div>
+    </div>
+    <div class="member">
+        <img src="images\王文 本科生.jpg" alt="esearcher 4">
+        <div class="name">王文</div>
+    </div>
+    <div class="member">
+        <img src="images\灰色.jpg" alt="esearcher 5">
+        <div class="name">齐天泓</div>
+    </div>
+    <div class="member">
+        <img src="images\灰色.jpg" alt="esearcher 6">
+        <div class="name">李然</div>
     </div>
 </div>
 
