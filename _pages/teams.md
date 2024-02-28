@@ -28,14 +28,14 @@ permalink: /teams
     }
     .member img {
         border-radius: 50%;
-        width: 150px;
-        height: 180px;
+        width: 100px;
+        height: 120px;
         transition: transform 0.3s ease-in-out;
     }
     .member .name {
         margin-top: 10px;
         font-weight: bold;
-        font-size:17px
+        font-size:14px
     }
     .member:hover img {
         transform: scale(1.1);
@@ -45,75 +45,70 @@ permalink: /teams
 <body>
 
 <div class="container">
-    <h2>研究员</h2>
     <div class="member">
         <img src="images\李兵 研究员.jpg" alt="Main Researcher">
-        <div class="name">李兵</div>
+        <div class="name">李兵 研究员</div>
     </div>
-    <h2>副研究员</h2>
     <div class="member">
         <img src="images\王隽 副研究员.jpg" alt="Min Researcher">
-        <div class="name">王隽</div>
+        <div class="name">王隽 副研究员</div>
     </div>
-    <h2>幅教授</h2>
     <div class="member">
         <img src="images\韩龙飞 副教授.jpg" alt="in Researcher">
-        <div class="name">韩龙飞</div>
+        <div class="name">韩龙飞 副教授</div>
     </div>
-    <h2>博士研究生</h2>
+    <h2> </h2>
     <div class="member">
         <img src="images\陈泽文 博士研究生.jpg" alt="Researcher 1">
-        <div class="name">陈泽文</div>
+        <div class="name">陈泽文 博士研究生</div>
     </div>
     <div class="member">
         <img src="images\覃海纳 博士研究生.jpg" alt="Researcher 2">
-        <div class="name">覃海纳</div>
+        <div class="name">覃海纳 博士研究生</div>
     </div>
     <div class="member">
         <img src="images\孙鑫雨 博士研究生.jpg" alt="Researcher 3">
-        <div class="name">孙鑫雨</div>
+        <div class="name">孙鑫雨 博士研究生</div>
     </div>
     <div class="member">
         <img src="images\冯紫钰 博士研究生.jpg" alt="Researcher 4">
-        <div class="name">冯紫钰</div>
+        <div class="name">冯紫钰 博士研究生</div>
     </div>
     <div class="member">
         <img src="images\灰色.jpg" alt="Researcher 5">
-        <div class="name">蔡明轩</div>
+        <div class="name">蔡明轩 博士研究生</div>
     </div>
     <div class="member">
         <img src="images\灰色.jpg" alt="Researcher 6">
-        <div class="name">张夏泽</div>
+        <div class="name">张夏泽 博士研究生</div>
     </div>
-    <h2>硕士研究生</h2>
     <div class="member">
         <img src="images\赵治坤 硕士研究生.png" alt="i Researcher">
-        <div class="name">赵治坤</div>
+        <div class="name">赵治坤 硕士研究生</div>
     </div>
-    <h2>本科生</h2>
     <div class="member">
         <img src="images\郭佳 本科生.jpg" alt="esearcher 1">
-        <div class="name">郭佳</div>
+        <div class="name">郭佳 本科生</div>
     </div>
     <div class="member">
         <img src="images\何宇航 本科生.jpg" alt="esearcher 2">
-        <div class="name">何宇航</div>
+        <div class="name">何宇航 本科生</div>
     </div>
     <div class="member">
         <img src="images\金子翔 本科生.jpg" alt="esearcher 3">
-        <div class="name">金子翔</div>
+        <div class="name">金子翔 本科生</div>
     </div>
     <div class="member">
         <img src="images\王文 本科生.jpg" alt="esearcher 4">
-        <div class="name">王文</div>
+        <div class="name">王文 本科生</div>
     </div>
     <div class="member">
         <img src="images\灰色.jpg" alt="esearcher 5">
-        <div class="name">齐天泓</div>
+        <div class="name">齐天泓 本科生</div>
     </div>
     <div class="member">
         <img src="images\灰色.jpg" alt="esearcher 6">
-        <div class="name">李然</div>
+        <div class="name">李然 本科生</div>
     </div>
 </div>
 
