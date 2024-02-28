@@ -28,8 +28,8 @@ permalink: /teams
     }
     .member img {
         border-radius: 50%;
-        width:auto ;
-        height: auto;
+        width: 150px;
+        height: 180px;
         transition: transform 0.3s ease-in-out;
     }
     .member .name {
