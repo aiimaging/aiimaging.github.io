@@ -50,12 +50,12 @@ permalink: /teams
         <img src="images\李兵 研究员.jpg" alt="Main Researcher">
         <div class="name">李兵</div>
     </div>
-    <h2>幅研究员</h2>
+    <h2>幅教授</h2>
     <div class="member">
         <img src="images\韩龙飞 副教授.jpg" alt="in Researcher">
         <div class="name">韩龙飞</div>
     </div>
-    <h2>副教授</h2>
+    <h2>副研究员</h2>
     <div class="member">
         <img src="images\王隽 副研究员.jpg" alt="Min Researcher">
         <div class="name">王隽</div>
