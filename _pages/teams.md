@@ -22,14 +22,14 @@ permalink: /teams
     }
     .member {
         display: inline-block;
-        margin: 20px;
+        margin: 1px;
         position: relative;
         cursor: pointer;
     }
     .member img {
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width:auto ;
+        height: auto;
         transition: transform 0.3s ease-in-out;
     }
     .member .name {
