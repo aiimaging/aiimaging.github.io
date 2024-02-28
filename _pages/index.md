@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /teams
+permalink: /airlab
 ---
 <html lang="en">
 <head>
