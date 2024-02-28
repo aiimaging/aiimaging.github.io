@@ -3,7 +3,7 @@ layout: splash
 permalink: /teams
 
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -17,9 +17,10 @@ permalink: /teams
         padding: 20px;
     }
     .slideshow {
-        width: 50%; /* 调整轮播图片组件的宽度 */
+        width: 45%; /* 调整轮播图片组件的宽度 */
         height: 500px;
         overflow: hidden;
+        position: relative;
     }
     .slideshow img {
         position: absolute;
