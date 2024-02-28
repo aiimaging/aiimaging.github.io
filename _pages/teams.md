@@ -51,6 +51,11 @@ permalink: /teams
     </div>
     <h2>幅研究员</h2>
     <div class="member">
+        <img src="images\韩龙飞 副教授.jpg" alt="in Researcher">
+        <div class="name">韩龙飞</div>
+    </div>
+    <h2>副教授</h2>
+    <div class="member">
         <img src="images\王隽 副研究员.jpg" alt="Min Researcher">
         <div class="name">王隽</div>
     </div>
@@ -70,6 +75,14 @@ permalink: /teams
     <div class="member">
         <img src="images\冯紫钰 博士研究生.jpg" alt="Researcher 4">
         <div class="name">冯紫钰</div>
+    </div>
+    <div class="member">
+        <img src="images\灰色.jpg" alt="Researcher 5">
+        <div class="name">蔡明轩</div>
+    </div>
+    <div class="member">
+        <img src="images\灰色.jpg" alt="Researcher 6">
+        <div class="name">张夏泽</div>
     </div>
 </div>
 
