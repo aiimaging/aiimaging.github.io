@@ -22,7 +22,7 @@ permalink: /teams
     }
     .member {
         display: inline-block;
-        margin: 1px 10px;
+        margin: 10px 10px;
         position: relative;
         cursor: pointer;
     }
