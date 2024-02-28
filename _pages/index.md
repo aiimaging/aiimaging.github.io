@@ -1,11 +1,13 @@
 ---
 layout: splash
 permalink: /airlab
+
 ---
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>轮播图片和文字示例</title>
 <style>
     .container {
         display: flex;
@@ -47,7 +49,7 @@ permalink: /airlab
         <img src="images\04.jpg" alt="Image 4">
     </div>
     <div class="text-container">
-        <h1>智能成像研究小组 (I²Group)</h1>
+        <h1>智能成像研究小组 (I2Group)</h1>
         <p>隶属于中国科学院自动化研究所多模态人工智能系统全国重点实验室视频内容安全团队，团队负责人为胡卫明研究员，研究小组负责人为李兵研究员和王隽副研究员。研究小组围绕ISP智能参数优化、图像质量评估、low-level视觉大模型、白平衡等底层视觉方向开展了一系列具有高学术价值的基础理论和创新方法研究，相关成果发表在TPAMI、IJCV、CVPR、ECCV等国际权威期刊和会议上，并获得了AIM 2022 Learned Smart ISP客观指标赛道的第一名，核心技术已在合作企业的产品上实现落地应用，大幅提升了相机成像的质量和效率，加快了产品的更新迭代，给用户带来了更好的视觉体验。</p>
     </div>
 </div>
@@ -67,7 +69,9 @@ permalink: /airlab
 
 </body>
 </html>
----
+
+
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
