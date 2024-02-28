@@ -14,7 +14,7 @@ permalink: /teams
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
+        padding: 1px;
     }
     .slideshow {
         width: 45%; /* 调整轮播图片组件的宽度 */
