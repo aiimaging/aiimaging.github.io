@@ -2,7 +2,7 @@
 layout: splash
 permalink: /teams
 <div>
-<img>
+
 </div>
 ---
 
