@@ -35,6 +35,7 @@ permalink: /teams
     .member .name {
         margin-top: 10px;
         font-weight: bold;
+        font-size:14px
     }
     .member:hover img {
         transform: scale(1.1);
